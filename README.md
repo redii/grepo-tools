@@ -41,7 +41,7 @@ Since some of the tools in this project need live data from within the game, whi
    d. Cookie (e.g. metricsUvId=...; cid=...; sid=...;)
 6. Put this session data in your config.json file
 
-![Extract Data from HTTP request](https://github.com/redii/grepo-tools/blob/main/assets/extract_session_from_http_request.jpg)
+![Extract Data from HTTP request](https://github.com/redii/grepo-tools/blob/main/assets/extract_session_from_http_request.png)
 
 ## Usage
 

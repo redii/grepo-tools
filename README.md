@@ -22,9 +22,9 @@ This tool has been created using [Bun](https://bun.sh/) and it's [native sqlite 
 
 ### Installation
 
-1. Clone this repository: ```sh git clone https://github.com/redii/grepo-tools.git```
-2. Install dependencies: ```sh bun install```
-3. Create a config file: ```sh bun index.ts create-config``` (or copy the config.example.json manually)
+1. Clone this repository: ```git clone https://github.com/redii/grepo-tools.git```
+2. Install dependencies: ```bun install```
+3. Create a config file: ```bun index.ts create-config``` (or copy the config.example.json manually)
 
 ### Get Config Values
 

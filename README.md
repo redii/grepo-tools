@@ -1,6 +1,6 @@
 # grepo-tools
 
-A cli tool for the game Grepolis by Innogames. This tool is not associated with or approved by Innogames and might be against the games terms of service. **The use of this tool is on your own risk!**
+A collection of tools for the game Grepolis by Innogames made for the CLI using [Bun](https://bun.sh/). This tool is not associated with or approved by Innogames and might be against the games terms of service. **The use of this tool is on your own risk!**
 
 ## Features
 
@@ -16,9 +16,9 @@ This project is planned to provide different useful tools for Grepolis. Here is 
 
 This tool has been created using [Bun](https://bun.sh/) and it's [native sqlite driver](https://bun.sh/docs/api/sqlite).
 
-- Version of Bun (tested on 1.1.8)
+- A version of Bun installed (tested on 1.1.8)
 - Grepolis account (it is recommended to not use this on your main account)
-- maybe an VPN or Proxy
+- Maybe an VPN or Proxy
 
 ### Installation
 
@@ -32,14 +32,15 @@ Since some of the tools in this project need live data from within the game, whi
 
 1. Open the dev tools of your browser
 2. Select the network tab to inspect the HTTP requests made by the game
-3. Open the Ranking Overview (this starts to send HTTP request displayed in the dev tools)
-4. Click on the first request, which has been made by this
+3. Open the Ranking Overview (this sends a HTTP request)
+4. Click on the request that has been made
 5. Extract the following data from this request
-   a. Worlds Name (e.g. en162)
-   b. Town ID (e.g. 3771)
-   c. H Token (e.g. a694e69...)
-   d. Cookie (e.g. metricsUvId=...; cid=...; sid=...;)
+   - a. Worlds Name (e.g. en162)
+   - b. Town ID (e.g. 3771)
+   - c. H Token (e.g. a694e69...)
+   - d. Cookie (e.g. metricsUvId=...; cid=...; sid=...;)
 6. Put this session data in your config.json file
+   - optional you can add a Discord Webhook to send notifications to a channel
 
 ![Extract Data from HTTP request](https://github.com/redii/grepo-tools/blob/main/assets/extract_session_from_http_request.png)
 
